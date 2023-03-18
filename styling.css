@@ -1,0 +1,21 @@
+h3{
+    background-color: blueviolet;
+    font-size: 40px;
+    background-color: white;
+    box-shadow: 4px 4px 10px #b17a3b;
+    text-align: center;
+}
+form{
+    background-color: gray;
+}
+legend{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 2em;
+	border-bottom: 2px solid;
+	width: 300px;
+	text-align: center;
+	border-right: 2px solid;
+	box-shadow: 4px 4px 10px #000000;
+	margin-top: 10px;
+    font: larger;
+}

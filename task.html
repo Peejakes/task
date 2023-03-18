@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+	<link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <h3>Fill in your BioData</h3>
+<!-- 		use get, not post
+ --><form onsubmit="myFunction()">
+    
+        <fieldset>
+            <legend>Biodata</legend>
+            <p>First Name: <input type="text" name="firstname"><p>
+            Middle Name: <input type="text" name="middlename"><p>
+            Last Name: <input type="text" name="lastname"></p>
+            <p>Phone Number: <input type="text" name="lastname"></p>
+            <p>Email: <input type="email" name="email" required>
+            Password: <input type="password" name="password" min="5"></p>
+            <p>Date of Birth: <input type="date"></p>
+            Gender:<br>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other<br>
+            <p>Pets: <br>
+            <input type="checkbox" name="dog"> Dog <br>
+            <input type="checkbox" name="cat"> Cat <br>
+            <input type="checkbox" name="bird"> Bird </p>
+            Cars: <br>
+            <select>
+                <option value="volvo" name="volvo">Volvo</option>
+                <option value="Audi" name="audi">Audi</option>
+                <option value="Bens" name="Bens">Bens</option>
+                <option value="Camry" name="camry">Camry</option>
+                <option value="Lexus" name="lexus">Lexus</option>
+            </select><br>
+            <br>
+            <p><input type="submit">
+            <input type="reset"></p>
+        </fieldset>
+	</form>
+    <script>
+        function myFunction() {
+          alert("The form was submitted");
+        }
+        </script>
+</body>
+</html>

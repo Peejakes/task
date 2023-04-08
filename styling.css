@@ -1,4 +1,4 @@
-/*h3{
+h3{
     background-color: blueviolet;
     font-size: 40px;
     background-color: white;
@@ -18,7 +18,7 @@ legend{
 	box-shadow: 4px 4px 10px #000000;
 	margin-top: 10px;
     font: larger;
-}*/
+}
 input{
 	color: black;
 }
